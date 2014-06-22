@@ -1,13 +1,13 @@
 import time
-#import RPi.GPIO as GPIO
+import RPi.GPIO as GPIO
 from myMathUtil import *
 from config import *
 
 def readPort(portNo):
-    GPIO.input(portNo)
-    if portNo == 14: return L
-    if portNo == 15: return H
-    if portNo == 18: return L
+    return GPIO.input(portNo)
+#    if portNo == 14: return L
+#    if portNo == 15: return H
+#    if portNo == 18: return L
 
 class ControlPort:
     def __init__(self):
@@ -40,6 +40,6 @@ class ControlPort:
         return False
 
 def portTestInit():
-    GPIO.setup(7, GPIO.OUT)
-    GPIO.output(7, True)
+    GPIO.setup(4, GPIO.OUT)
+    GPIO.output(4, True)
     pass
