@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sdpath = /media/FLASHAIR
+sdpath=/media/FLASHAIR
 
 # Wait for mounting SD card...
 while [ ! -e $sdpath ]

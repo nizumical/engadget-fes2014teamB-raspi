@@ -47,7 +47,6 @@ camera = MyCamera()
 playBuzzer = PlayBuzzer()
 ctrlPort = ControlPort()
 ctrlPort.sample()
-portTestInit()
 
 intvlCount = IntervalCounter()
 

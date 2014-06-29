@@ -7,7 +7,7 @@ portManual    = 25
 numOfSample   = 10
 
 # Camera should start working for lower distance than this
-distanceThreshold = 1
+distanceThreshold = 2
 
 # Photo interval
 INTERVAL = 10
